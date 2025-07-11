@@ -1,0 +1,11 @@
+name = "niubiclass"
+main = "src/index.ts"
+compatibility_date = "2023-10-30"
+
+[ai]
+binding = "AI" # i.e. available in your Worker on env.AI
+
+[[r2_buckets]]
+binding = "R2"
+bucket_name = "niubitong"
+preview_bucket_name = "sdxl"
